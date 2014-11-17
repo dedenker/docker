@@ -18,11 +18,11 @@ To proceed with Docker installation please add the right Virtualization
 repository.
 
     # openSUSE 12.3
-    $ sudo zypper ar -f http://download.opensuse.org/repositories/Virtualization/openSUSE_12.3/ Virtualization
+    $ sudo zypper ar -f http://download.opensuse.org/repositories/Virtualization/openSUSE_12.3/Virtualization.repo
     $ sudo rpm --import http://download.opensuse.org/repositories/Virtualization/openSUSE_12.3/repodata/repomd.xml.key
 
     # openSUSE 13.1
-    $ sudo zypper ar -f http://download.opensuse.org/repositories/Virtualization/openSUSE_13.1/ Virtualization
+    $ sudo zypper ar -f http://download.opensuse.org/repositories/Virtualization/openSUSE_13.1/Virtualization.repo
     $ sudo rpm --import http://download.opensuse.org/repositories/Virtualization/openSUSE_13.1/repodata/repomd.xml.key
 
 Install the Docker package.
