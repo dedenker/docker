@@ -48,6 +48,7 @@ root user, need to be part of this group in order to interact with the
 Docker daemon. You can add users with:
 
     $ sudo /usr/sbin/usermod -a -G docker <username>
+If you add your current account remember to log out/in.
 
 To verify that everything has worked as expected:
 
